@@ -11,12 +11,12 @@ public class BreadthFirstSearch {
 
     }
 
-    public int[][] waypointList(int[][] gridWeight, int[] startingLoc, int[] destLoc) {
+    /*public int[][] waypointList(int[][] gridWeight, int[] startingLoc, int[] destLoc) {
 
         int width = gridWeight.length;
         int height = gridWeight[0].length;
         boolean destinationReached = false;
-        PathQueue myPath = new PathQueue(null, startingLoc, new boolean[width][height], 0);
+        //PathQueue myPath = new PathQueue(null, startingLoc, new boolean[width][height], 0);
 
         while( !destinationReached ) {
             for(int i = 0;i < 8; i++) {
@@ -30,7 +30,7 @@ public class BreadthFirstSearch {
         }
 
         return null;
-    }
+    }*/
 
 
 }
