@@ -17,6 +17,7 @@ public class PathQueue {    //use insertion sort to generate a queue while execu
             for(int j = 0; j < visited[0].length; j++) {
                 visited[i][j] = previouslyVisited[i][j];
             }
+
         }
         visited[curCoords[0]][curCoords[1]] = true;
         totalWeight = _totalWeight;
@@ -43,6 +44,10 @@ public class PathQueue {    //use insertion sort to generate a queue while execu
                                             {0, 1, 0, 1},
                                             {0, 1, 0, 0} };
 
-        PathQueue pq = new PathQueue(null, new int[]{0,0}, )
+        int[][] copiedArray;
+        System.arraycopy(weighting,0,copiedArray,0,weighting.length);
+        copiedArray[0][0] = 3;
+        System.out.println(weighting.toString());
+        System.out.println(copiedArray.toString());
     }
 }
